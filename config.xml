@@ -17,7 +17,14 @@
       Ірина Герасимук
   </author>
   
-  <platform name="ios" />
+<platform name="ios">
+    <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
+        <string>to take pictures/scan barcodes</string>
+    </edit-config>
+    <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
+        <string>to get pictures</string>
+    </edit-config>
+</platform>
 <platform name="android" />
 <platform name="winphone" />
   
