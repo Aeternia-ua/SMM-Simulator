@@ -16,5 +16,7 @@
   <author href="https://build.phonegap.com" email="gherasymuk@gmail.com">
       Ірина Герасимук
   </author>
+  
+  <icon src="icon.png" width="180" height="180" />
 
 </widget>
