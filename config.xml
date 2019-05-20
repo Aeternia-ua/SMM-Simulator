@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="io.github.aeternia-ua/SMM-Simulator" versionCode="100" version="1.0.0">
-<author>Ірина Герасимук</author>
-<name>SMM-симулятор</name>
-<description>Інтерактивна гра-симулятор SMM</description>
-  <icon src="icon.png" platform="android" width="180" height="180" />
-<icon src="icon.png" platform="ios" width="180" height="180" />
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.neptune.myapp" versionCode="100" version="1.0.0">
+<author>Me</author>
+<name>MyApp</name>
+<description>My App</description>
 <platform name="ios">
     <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
         <string>to take pictures/scan barcodes</string>
